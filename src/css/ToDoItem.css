@@ -1,0 +1,22 @@
+.ToDoItem {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    color: #4d4d4d;
+    border-bottom: 1px solid #EEE;
+    padding: 10px 20px;
+    display: flex;
+}
+
+.ToDoItem > p {
+    margin:0 0 0 20px;
+}
+
+.ToDoItem:last-child{
+    border-bottom: none;
+}
+
+.ToDoItem-complete > p {
+    text-decoration: line-through;
+    opacity: .3;
+}
