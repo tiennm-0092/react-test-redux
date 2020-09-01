@@ -11,8 +11,6 @@ function App() {
     { title: 'Di do xang', isComplete: false }
   ]);
 
-  const [count, setCount] = useState(0);
-
   function onItemClicked(id) {
     let temp = [...todoItems];
     let rightItem = temp.find((e, index) => {
