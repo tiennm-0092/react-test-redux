@@ -12,8 +12,8 @@ function ToDoItem(props) {
         className += ' ToDoItem-complete';
     }
     return (
-        <div className={className} >
-            <img onClick={props.onHandleClick} src={url} width={32} height={32} />
+        <div className={className} onClick={props.handleClick}>
+            <img alt="Check" src={url} width={32} height={32} />
            <p>{item.title}</p> 
         </div>
     );

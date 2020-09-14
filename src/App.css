@@ -19,6 +19,10 @@
   margin-left: 20px;
 }
 
+.App .header button {
+  margin-left: 10px;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
